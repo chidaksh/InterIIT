@@ -1,0 +1,59 @@
+[
+  {
+    "tool_name": "works_list_for_agent007",
+    "arguments": [
+      {
+        "argument_name": "owned_by",
+        "argument_value": "my"
+      },
+      {
+        "argument_name": "stage_name",
+        "argument_value": "triage"
+      },
+      {
+        "argument_name": "applies_to_part",
+        "argument_value": "FEAT-123"
+      },
+      {
+        "argument_name": "type",
+        "argument_value": "issue"
+      }
+    ]
+  },
+  {
+    "tool_name": "summarize_work_items_for_agent007",
+    "arguments": [
+      {
+        "argument_name": "objects",
+        "argument_value": "$$PREV1"
+      }
+    ]
+  },
+  {
+    "tool_name": "summarize_work_items_for_agent007",
+    "arguments": [
+      {
+        "argument_name": "objects",
+        "argument_value": "['WK-001', 'WK-003', 'WK-001', 'WK-002']"
+      }
+    ]
+  },
+  {
+    "tool_name": "summarize_work_items_for_agent007",
+    "arguments": [
+      {
+        "argument_name": "objects",
+        "argument_value": "['WK-001', 'WK-003', 'WK-002']"
+      }
+    ]
+  },
+  {
+    "tool_name": "summarize_work_items_for_agent007",
+    "arguments": [
+      {
+        "argument_name": "objects",
+        "argument_value": "WK-001,WK-002,WK-003"
+      }
+    ]
+  }
+]

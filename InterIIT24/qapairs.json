@@ -1,0 +1,423 @@
+[
+    {
+        "question": "Summarize issues similar to don:core:dvrv-us-1:devo/0:issue/1",
+        "answer": [
+            {
+                "tool_name": "get_similar_work_items",
+                "arguments": [
+                    {
+                        "argument_name": "work_id",
+                        "argument_value": "don:core:dvrv-us-1:devo/0:issue/1"
+                    }
+                ]
+            },
+            {
+                "tool_name": "summarize_objects",
+                "arguments": [
+                    {
+                        "argument_name": "objects",
+                        "argument_value": "$$PREV[0]"
+                    }
+                ]
+            }
+        ],
+        "qid": 1
+    },
+    {
+        "question": "What is the meaning of life?",
+        "answer": [],
+        "qid": 2
+    },
+    {
+        "question": "Prioritize my P0 issues and add them to the current sprint",
+        "answer": [
+            {
+                "tool_name": "whoami",
+                "arguments": []
+            },
+            {
+                "tool_name": "works_list",
+                "arguments": [
+                    {
+                        "argument_name": "issue.priority",
+                        "argument_value": "p0"
+                    },
+                    {
+                        "argument_name": "owned_by",
+                        "argument_value": "$$PREV[0]"
+                    }
+                ]
+            },
+            {
+                "tool_name": "prioritize_objects",
+                "arguments": [
+                    {
+                        "argument_name": "objects",
+                        "argument_value": "$$PREV[1]"
+                    }
+                ]
+            },
+            {
+                "tool_name": "get_sprint_id",
+                "arguments": []
+            },
+            {
+                "tool_name": "add_work_items_to_sprint",
+                "arguments": [
+                    {
+                        "argument_name": "work_ids",
+                        "argument_value": "$$PREV[2]"
+                    },
+                    {
+                        "argument_name": "sprint_id",
+                        "argument_value": "$$PREV[3]"
+                    }
+                ]
+            }
+        ],
+        "qid": 3
+    },
+    {
+        "question": "Given a customer meeting transcript T, create action items and add them to my current sprint",
+        "answer": [
+            {
+                "tool_name": "create_actionable_tasks_from_text",
+                "arguments": [
+                    {
+                        "argument_name": "text",
+                        "argument_value": "T"
+                    }
+                ]
+            },
+            {
+                "tool_name": "get_sprint_id",
+                "arguments": []
+            },
+            {
+                "tool_name": "add_work_items_to_sprint",
+                "arguments": [
+                    {
+                        "argument_name": "work_ids",
+                        "argument_value": "$$PREV[0]"
+                    },
+                    {
+                        "argument_name": "sprint_id",
+                        "argument_value": "$$PREV[1]"
+                    }
+                ]
+            }
+        ],
+        "qid": 4
+    },
+    {
+        "question": "List all high severity tickets coming in from slack from customer Cust123 and generate a summary of them.",
+        "answer": [
+            {
+                "tool_name": "search_object_by_name",
+                "arguments": [
+                    {
+                        "argument_name": "query",
+                        "argument_value": "Cust123"
+                    }
+                ]
+            },
+            {
+                "tool_name": "works_list",
+                "arguments": [
+                    {
+                        "argument_name": "ticket.rev_org",
+                        "argument_value": "$$PREV[0]"
+                    },
+                    {
+                        "argument_name": "ticket.severity",
+                        "argument_value": "high"
+                    },
+                    {
+                        "argument_name": "ticket.source_channel",
+                        "argument_value": "slack"
+                    }
+                ]
+            },
+            {
+                "tool_name": "summarize_objects",
+                "arguments": [
+                    {
+                        "argument_name": "objects",
+                        "argument_value": "$$PREV[1]"
+                    }
+                ]
+            }
+        ],
+        "qid": 5
+    },
+    {
+        "question": "What are my issues in the triage stage under part FEAT-123? Summarize them.",
+        "answer": [
+            {
+                "tool_name": "whoami",
+                "arguments": []
+            },
+            {
+                "tool_name": "works_list",
+                "arguments": [
+                    {
+                        "argument_name": "stage.name",
+                        "argument_value": "triage"
+                    },
+                    {
+                        "argument_name": "applies_to_part",
+                        "argument_value": "FEAT-123"
+                    },
+                    {
+                        "argument_name": "owned_by",
+                        "argument_value": "$$PREV[0]"
+                    }
+                ]
+            },
+            {
+                "tool_name": "summarize_objects",
+                "arguments": [
+                    {
+                        "argument_name": "objects",
+                        "argument_value": "$$PREV[1]"
+                    }
+                ]
+            }
+        ],
+        "qid": 6
+    },
+    {
+        "question": "Summarize high severity tickets from the customer UltimateCustomer",
+        "answer": [
+            {
+                "tool_name": "search_object_by_name",
+                "arguments": [
+                    {
+                        "argument_name": "query",
+                        "argument_value": "UltimateCustomer"
+                    }
+                ]
+            },
+            {
+                "tool_name": "works_list",
+                "arguments": [
+                    {
+                        "argument_name": "ticket.rev_org",
+                        "argument_value": "$$PREV[0]"
+                    }
+                ]
+            },
+            {
+                "tool_name": "summarize_objects",
+                "arguments": [
+                    {
+                        "argument_name": "objects",
+                        "argument_value": "$$PREV[1]"
+                    }
+                ]
+            }
+        ],
+        "qid": 7
+    },
+    {
+        "question": "Get all work items similar to TKT-123, summarize them, create issues from that summary, and prioritize them",
+        "answer": [
+            {
+                "tool_name": "get_similar_work_items",
+                "arguments": [
+                    {
+                        "argument_name": "work_id",
+                        "argument_value": "TKT-123"
+                    }
+                ]
+            },
+            {
+                "tool_name": "create_actionable_tasks_from_text",
+                "arguments": [
+                    {
+                        "argument_name": "text",
+                        "argument_value": "$$PREV[0]"
+                    }
+                ]
+            },
+            {
+                "tool_name": "prioritize_objects",
+                "arguments": [
+                    {
+                        "argument_name": "objects",
+                        "argument_value": "$$PREV[1]"
+                    }
+                ]
+            }
+        ],
+        "qid": 8
+    },
+    {
+        "question": "Prioritize my P0 issues and add the first 5 to the current sprint",
+        "answer": 
+        [
+            {
+                "tool_name": "whoami",
+                "arguments": []
+            },
+            {
+                "tool_name": "works_list",
+                "arguments": [
+                    {
+                        "argument_name": "issue.priority",
+                        "argument_value": "p0"
+                    },
+                    {
+                        "argument_name": "owned_by",
+                        "argument_value": "$$PREV[0]"
+                    }
+                ]
+            },
+            {
+                "tool_name": "prioritize_objects",
+                "arguments": [
+                    {
+                        "argument_name": "objects",
+                        "argument_value": "$$PREV[1]"
+                    }
+                ]
+            },
+            {
+                "tool_name": "select_first_k_tasks",
+                "arguments": [
+                    {
+                        "argument_name": "objects",
+                        "argument_value": "$$PREV[2]"
+                    }
+                ]
+            },
+            {
+                "tool_name": "get_sprint_id",
+                "arguments": []
+            },
+            {
+                "tool_name": "add_work_items_to_sprint",
+                "arguments": [
+                    {
+                        "argument_name": "work_ids",
+                        "argument_value": "$$PREV[3]"
+                    },
+                    {
+                        "argument_name": "sprint_id",
+                        "argument_value": "$$PREV[4]"
+                    }
+                ]
+            }
+        ],
+        "qid": 9
+    },
+    {
+        "question": "Get all work items owned by me, summarize them, and calculate the average priority.",
+        "answer": 
+        [
+            {
+                "tool_name": "who_am_i",
+                "arguments": []
+            },
+            {
+                "tool_name": "works_list",
+                "arguments": [
+                    {
+                        "argument_name": "owned_by",
+                        "argument_value": "$$PREV[0]"
+                    }
+                ]
+            },
+            {
+                "tool_name": "summarize_objects",
+                "arguments": [
+                    {
+                        "argument_name": "objects",
+                        "argument_value": "$$PREV[1]"
+                    }
+                ]
+            },
+            {
+                "tool_name": "average_priority",
+                "arguments": [
+                    {
+                        "argument_name": "objects",
+                        "argument_value": "$$PREV[2]"
+                    }
+                ]
+            }
+        ],
+        "qid": 10
+    },
+    {
+        "question": "Get my highest priority issue between TKT-123 and TKT-456.",
+        "answer": 
+        [
+            {
+                "tool_name": "who_am_i",
+                "arguments": []
+            },
+            {
+                "tool_name": "get_similar_work_items",
+                "arguments": [
+                    {
+                        "argument_name": "work_id",
+                        "argument_value": "TKT-123"
+                    }
+                ]
+            },
+            {
+                "tool_name": "get_similar_work_items",
+                "arguments": [
+                    {
+                        "argument_name": "work_id",
+                        "argument_value": "TKT-456"
+                    }
+                ]
+            },
+            {
+                "tool_name": "compare_priorities",
+                "arguments": [
+                    {
+                        "argument_name": "object1",
+                        "argument_value": "$$PREV[1][0]"
+                    },
+                    {
+                        "argument_name": "object2",
+                        "argument_value": "$$PREV[2][0]"
+                    }
+                ]
+            }
+        ],
+        "qid": 11
+    },
+    {
+        "question": "Count the number of tasks in the current sprint.",
+        "answer": 
+        [
+            {
+                "tool_name": "get_sprint_id",
+                "arguments": []
+            },
+            {
+                "tool_name": "works_list",
+                "arguments": [
+                    {
+                        "argument_name": "sprint_id",
+                        "argument_value": "$$PREV[0]"
+                    }
+                ]
+            },
+            {
+                "tool_name": "count_tasks",
+                "arguments": [
+                    {
+                        "argument_name": "objects",
+                        "argument_value": "$$PREV[1]"
+                    }
+                ]
+            }
+        ],
+        "qid": 12
+    }
+]

@@ -1,0 +1,1343 @@
+{
+  "win": false,
+  "tree": {
+    "size": 77,
+    "max_length": 15,
+    "tree": {
+      "is_terminal": false,
+      "pruned": false,
+      "finished": false,
+      "depth": 0,
+      "node_type": "Action Input",
+      "description": "",
+      "Elo": 1000.0,
+      "child_count": 2,
+      "expand_num": 0,
+      "io_state": {},
+      "children": [
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 1,
+          "node_type": "Action",
+          "description": "get_similar_work_items_for_agent007",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0,
+          "children": [
+            {
+              "is_terminal": false,
+              "pruned": false,
+              "finished": false,
+              "depth": 2,
+              "node_type": "Action Input",
+              "description": "{\n  \"work_id\": \"TKT-123\"\n}",
+              "Elo": 1000.0,
+              "observation": "{\"error\": \"\", \"response\": \"[]\"}",
+              "observation_code": 0,
+              "child_count": 2,
+              "expand_num": 1,
+              "io_state": {},
+              "children": [
+                {
+                  "is_terminal": false,
+                  "pruned": false,
+                  "finished": false,
+                  "depth": 3,
+                  "node_type": "Thought",
+                  "description": "I'm sorry, but I couldn't find any work items similar to TKT-123. Please make sure the work ID is correct.",
+                  "Elo": 1000.0,
+                  "child_count": 1,
+                  "expand_num": 0,
+                  "children": [
+                    {
+                      "is_terminal": false,
+                      "pruned": false,
+                      "finished": false,
+                      "depth": 4,
+                      "node_type": "Action",
+                      "description": "summarize_objects_for_agent007",
+                      "Elo": 1000.0,
+                      "child_count": 1,
+                      "expand_num": 0,
+                      "children": [
+                        {
+                          "is_terminal": false,
+                          "pruned": false,
+                          "finished": false,
+                          "depth": 5,
+                          "node_type": "Action Input",
+                          "description": "{\n  \"objects\": \"TKT-123\"\n}",
+                          "Elo": 1000.0,
+                          "observation": "{\"error\": \"Message error...\", \"response\": \"{'error': 'Not a valid list of objects/ object ids. Example: \\\"[\\\\'WK-001\\\\', \\\\'WK-002\\\\']'}\"}",
+                          "observation_code": 11,
+                          "child_count": 2,
+                          "expand_num": 2,
+                          "io_state": {},
+                          "children": [
+                            {
+                              "is_terminal": false,
+                              "pruned": false,
+                              "finished": false,
+                              "depth": 6,
+                              "node_type": "Action",
+                              "description": "summarize_objects_for_agent007",
+                              "Elo": 1000.0,
+                              "child_count": 1,
+                              "expand_num": 0,
+                              "children": [
+                                {
+                                  "is_terminal": false,
+                                  "pruned": false,
+                                  "finished": false,
+                                  "depth": 7,
+                                  "node_type": "Action Input",
+                                  "description": "{\n  \"objects\": \"[\\\"TKT-123\\\"]\"\n}",
+                                  "Elo": 1000.0,
+                                  "observation": "{\"error\": \"Function executing from data.toolenv.tools.Customized.agent007.api import summarize_objects error...\\ninvalid syntax. Perhaps you forgot a comma? (<string>, line 1)\", \"response\": \"\"}",
+                                  "observation_code": 0,
+                                  "child_count": 2,
+                                  "expand_num": 3,
+                                  "io_state": {},
+                                  "children": [
+                                    {
+                                      "is_terminal": false,
+                                      "pruned": false,
+                                      "finished": false,
+                                      "depth": 8,
+                                      "node_type": "Action",
+                                      "description": "summarize_objects_for_agent007",
+                                      "Elo": 1000.0,
+                                      "child_count": 1,
+                                      "expand_num": 0,
+                                      "children": [
+                                        {
+                                          "is_terminal": false,
+                                          "pruned": false,
+                                          "finished": false,
+                                          "depth": 9,
+                                          "node_type": "Action Input",
+                                          "description": "{\n  \"objects\": \"TKT-123\"\n}",
+                                          "Elo": 1000.0,
+                                          "observation": "{\"error\": \"Message error...\", \"response\": \"{'error': 'Not a valid list of objects/ object ids. Example: \\\"[\\\\'WK-001\\\\', \\\\'WK-002\\\\']'}\"}",
+                                          "observation_code": 11,
+                                          "child_count": 2,
+                                          "expand_num": 4,
+                                          "io_state": {},
+                                          "children": [
+                                            {
+                                              "is_terminal": false,
+                                              "pruned": false,
+                                              "finished": false,
+                                              "depth": 10,
+                                              "node_type": "Action",
+                                              "description": "get_similar_work_items_for_agent007",
+                                              "Elo": 1000.0,
+                                              "child_count": 1,
+                                              "expand_num": 0,
+                                              "children": [
+                                                {
+                                                  "is_terminal": false,
+                                                  "pruned": false,
+                                                  "finished": false,
+                                                  "depth": 11,
+                                                  "node_type": "Action Input",
+                                                  "description": "{\n  \"work_id\": \"TKT-123\"\n}",
+                                                  "Elo": 1000.0,
+                                                  "observation": "{\"error\": \"\", \"response\": \"[]\"}",
+                                                  "observation_code": 0,
+                                                  "child_count": 2,
+                                                  "expand_num": 5,
+                                                  "io_state": {},
+                                                  "children": [
+                                                    {
+                                                      "is_terminal": false,
+                                                      "pruned": true,
+                                                      "finished": false,
+                                                      "depth": 12,
+                                                      "node_type": "Thought",
+                                                      "description": "I'm sorry, but I couldn't find any work items similar to TKT-123.",
+                                                      "Elo": 1000.0,
+                                                      "child_count": 0,
+                                                      "expand_num": 6,
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "is_terminal": false,
+                                                      "pruned": false,
+                                                      "finished": false,
+                                                      "depth": 12,
+                                                      "node_type": "Thought",
+                                                      "description": "I'm sorry, but I couldn't find any work items similar to TKT-123. Please make sure the work ID is correct.",
+                                                      "Elo": 1000.0,
+                                                      "child_count": 1,
+                                                      "expand_num": 0,
+                                                      "children": [
+                                                        {
+                                                          "is_terminal": false,
+                                                          "pruned": false,
+                                                          "finished": false,
+                                                          "depth": 13,
+                                                          "node_type": "Action",
+                                                          "description": "summarize_objects_for_agent007",
+                                                          "Elo": 1000.0,
+                                                          "child_count": 1,
+                                                          "expand_num": 0,
+                                                          "children": [
+                                                            {
+                                                              "is_terminal": false,
+                                                              "pruned": true,
+                                                              "finished": false,
+                                                              "depth": 14,
+                                                              "node_type": "Action Input",
+                                                              "description": "{\n  \"objects\": \"TKT-123\"\n}",
+                                                              "Elo": 1000.0,
+                                                              "observation": "{\"error\": \"Message error...\", \"response\": \"{'error': 'Not a valid list of objects/ object ids. Example: \\\"[\\\\'WK-001\\\\', \\\\'WK-002\\\\']'}\"}",
+                                                              "observation_code": 11,
+                                                              "child_count": 0,
+                                                              "expand_num": 7,
+                                                              "io_state": {},
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "is_terminal": false,
+                                              "pruned": false,
+                                              "finished": false,
+                                              "depth": 10,
+                                              "node_type": "Thought",
+                                              "description": "Based on the current state and the previous action candidates, it seems that querying for similar work items using the function \"get_similar_work_items_for_agent007\" did not yield any results. The previous action failed because the work item ID provided was not valid.\n\nTo proceed, I will try a different approach. Instead of searching for similar work items, I will search for work items based on their attributes. I will use the \"works_list_for_agent007\" function to retrieve work items with the same issue priority as TKT-123.",
+                                              "Elo": 1000.0,
+                                              "child_count": 1,
+                                              "expand_num": 0,
+                                              "children": [
+                                                {
+                                                  "is_terminal": false,
+                                                  "pruned": false,
+                                                  "finished": false,
+                                                  "depth": 11,
+                                                  "node_type": "Action",
+                                                  "description": "works_list_for_agent007",
+                                                  "Elo": 1000.0,
+                                                  "child_count": 1,
+                                                  "expand_num": 0,
+                                                  "children": [
+                                                    {
+                                                      "is_terminal": false,
+                                                      "pruned": true,
+                                                      "finished": false,
+                                                      "depth": 12,
+                                                      "node_type": "Action Input",
+                                                      "description": "{\n  \"owned_by\": \"\",\n  \"issue_priority\": \"\",\n  \"created_by\": \"\",\n  \"applies_to_part\": \"\",\n  \"issue_rev_orgs\": \"\",\n  \"stage_name\": \"\",\n  \"ticket_needs_response\": \"\",\n  \"ticket_rev_org\": \"\",\n  \"ticket_severity\": \"\",\n  \"ticket_source_channel\": \"\",\n  \"type\": \"\"\n}",
+                                                      "Elo": 1000.0,
+                                                      "observation": "{\"error\": \"Function executing from data.toolenv.tools.Customized.agent007.api import works_list error...\\nargument of type 'bool' is not iterable\", \"response\": \"\"}",
+                                                      "observation_code": 0,
+                                                      "child_count": 0,
+                                                      "expand_num": 8,
+                                                      "io_state": {},
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "is_terminal": false,
+                                      "pruned": false,
+                                      "finished": false,
+                                      "depth": 8,
+                                      "node_type": "Thought",
+                                      "description": "Based on the previous actions and their outcomes, it seems that the function `summarize_objects_for_agent007` is not working correctly. Therefore, I will try a different approach and use the `works_list_for_agent007` function to get a list of work items similar to TKT-123, and then summarize them manually.\n\nHere is my plan:\n1. Call the `works_list_for_agent007` function to get a list of work items similar to TKT-123.\n2. Extract the IDs of the work items from the response.\n3. Loop through the list of IDs and call the `summarize_objects_for_agent007` function for each work item.\n4. Manually summarize each work item by extracting relevant information such as title, description, and priority.\n5. Create new issues for each summarized work item using the `create_actionable_tasks_from_text_for_agent007` function.\n6. Prioritize the created issues based on their priority.\n\nLet's begin!",
+                                      "Elo": 1000.0,
+                                      "child_count": 1,
+                                      "expand_num": 0,
+                                      "children": [
+                                        {
+                                          "is_terminal": false,
+                                          "pruned": false,
+                                          "finished": false,
+                                          "depth": 9,
+                                          "node_type": "Action",
+                                          "description": "works_list_for_agent007",
+                                          "Elo": 1000.0,
+                                          "child_count": 1,
+                                          "expand_num": 0,
+                                          "children": [
+                                            {
+                                              "is_terminal": false,
+                                              "pruned": false,
+                                              "finished": false,
+                                              "depth": 10,
+                                              "node_type": "Action Input",
+                                              "description": "{\n  \"owned_by\": \"my\",\n  \"issue_priority\": \"p3\"\n}",
+                                              "Elo": 1000.0,
+                                              "observation": "{\"error\": \"\", \"response\": \"[]\"}",
+                                              "observation_code": 0,
+                                              "child_count": 2,
+                                              "expand_num": 9,
+                                              "io_state": {},
+                                              "children": [
+                                                {
+                                                  "is_terminal": false,
+                                                  "pruned": false,
+                                                  "finished": false,
+                                                  "depth": 11,
+                                                  "node_type": "Thought",
+                                                  "description": "I apologize, but I couldn't find any work items similar to TKT-123. It seems that there are no work items matching the given criteria in the database. Is there anything else I can assist you with?",
+                                                  "Elo": 1000.0,
+                                                  "child_count": 2,
+                                                  "expand_num": 10,
+                                                  "children": [
+                                                    {
+                                                      "is_terminal": false,
+                                                      "pruned": false,
+                                                      "finished": false,
+                                                      "depth": 12,
+                                                      "node_type": "Action",
+                                                      "description": "get_similar_work_items_for_agent007",
+                                                      "Elo": 1000.0,
+                                                      "child_count": 1,
+                                                      "expand_num": 0,
+                                                      "children": [
+                                                        {
+                                                          "is_terminal": false,
+                                                          "pruned": true,
+                                                          "finished": false,
+                                                          "depth": 13,
+                                                          "node_type": "Action Input",
+                                                          "description": "{\n  \"work_id\": \"TKT-123\"\n}",
+                                                          "Elo": 1000.0,
+                                                          "observation": "{\"error\": \"\", \"response\": \"[]\"}",
+                                                          "observation_code": 0,
+                                                          "child_count": 0,
+                                                          "expand_num": 11,
+                                                          "io_state": {},
+                                                          "children": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "is_terminal": false,
+                                                      "pruned": false,
+                                                      "finished": false,
+                                                      "depth": 12,
+                                                      "node_type": "Thought",
+                                                      "description": "I apologize for the previous failed attempts. Based on the current state and the previous action, it seems that there are no work items similar to TKT-123 in the database. To proceed with a different action, I will try searching for the work item with the ID \"TKT-123\" using the `search_object_by_name_for_agent007` function.\n\nHere is my updated plan:\n1. Call the `search_object_by_name_for_agent007` function with the search string \"TKT-123\" to find the ID of the matching work item.\n2. If a matching work item is found, proceed with summarizing it, creating issues from the summary, and prioritizing them.\n3. If no matching work item is found, I will inform the user and suggest rechecking the work item ID.\n\nLet's try this approach and call the `search_object_by_name_for_agent007` function.",
+                                                      "Elo": 1000.0,
+                                                      "child_count": 1,
+                                                      "expand_num": 0,
+                                                      "children": [
+                                                        {
+                                                          "is_terminal": false,
+                                                          "pruned": false,
+                                                          "finished": false,
+                                                          "depth": 13,
+                                                          "node_type": "Action",
+                                                          "description": "search_object_by_name_for_agent007",
+                                                          "Elo": 1000.0,
+                                                          "child_count": 1,
+                                                          "expand_num": 0,
+                                                          "children": [
+                                                            {
+                                                              "is_terminal": false,
+                                                              "pruned": true,
+                                                              "finished": false,
+                                                              "depth": 14,
+                                                              "node_type": "Action Input",
+                                                              "description": "{}",
+                                                              "Elo": 1000.0,
+                                                              "observation": "{\"error\": \"\", \"response\": \"None\"}",
+                                                              "observation_code": 0,
+                                                              "child_count": 0,
+                                                              "expand_num": 12,
+                                                              "io_state": {},
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "is_terminal": false,
+                                                  "pruned": false,
+                                                  "finished": false,
+                                                  "depth": 11,
+                                                  "node_type": "Thought",
+                                                  "description": "Based on the current state and the previous action, it appears that the `get_similar_work_items_for_agent007` function did not return any similar work items for TKT-123. Since there is no response, it indicates that there are no work items similar to TKT-123.\n\nTo make a different action, I will now try to use the `search_object_by_name_for_agent007` function to search for the work item TKT-123 by its name and obtain its ID. Then, I can use this ID to retrieve the similar work items.\n\nHere is my updated plan:\n1. Call the `search_object_by_name_for_agent007` function to search for the work item TKT-123 and obtain its ID.\n2. If a matching work item is found, call the `get_similar_work_items_for_agent007` function with the obtained ID to retrieve the similar work items.\n3. If similar work items are found, summarize them by calling the `summarize_objects_for_agent007` function for each work item.\n4. Manually summarize each work item by extracting relevant information such as title, description, and priority.\n5. Create new issues for each summarized work item using the `create_actionable_tasks_from_text_for_agent007` function.\n6. Prioritize the created issues based on their priority.\n\nLet's begin!",
+                                                  "Elo": 1000.0,
+                                                  "child_count": 1,
+                                                  "expand_num": 0,
+                                                  "children": [
+                                                    {
+                                                      "is_terminal": false,
+                                                      "pruned": false,
+                                                      "finished": false,
+                                                      "depth": 12,
+                                                      "node_type": "Action",
+                                                      "description": "search_object_by_name_for_agent007",
+                                                      "Elo": 1000.0,
+                                                      "child_count": 1,
+                                                      "expand_num": 0,
+                                                      "children": [
+                                                        {
+                                                          "is_terminal": false,
+                                                          "pruned": true,
+                                                          "finished": false,
+                                                          "depth": 13,
+                                                          "node_type": "Action Input",
+                                                          "description": "{}",
+                                                          "Elo": 1000.0,
+                                                          "observation": "{\"error\": \"\", \"response\": \"None\"}",
+                                                          "observation_code": 0,
+                                                          "child_count": 0,
+                                                          "expand_num": 13,
+                                                          "io_state": {},
+                                                          "children": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "is_terminal": false,
+                              "pruned": false,
+                              "finished": false,
+                              "depth": 6,
+                              "node_type": "Thought",
+                              "description": "Based on the current state and previous action, it seems that the error occurred when trying to summarize the work item TKT-123. To resolve this, I will try to directly retrieve the work items similar to TKT-123 using the `works_list_for_agent007` function, and then summarize them. This is different from the previous action of directly summarizing TKT-123.",
+                              "Elo": 1000.0,
+                              "child_count": 1,
+                              "expand_num": 0,
+                              "children": [
+                                {
+                                  "is_terminal": false,
+                                  "pruned": false,
+                                  "finished": false,
+                                  "depth": 7,
+                                  "node_type": "Action",
+                                  "description": "works_list_for_agent007",
+                                  "Elo": 1000.0,
+                                  "child_count": 1,
+                                  "expand_num": 0,
+                                  "children": [
+                                    {
+                                      "is_terminal": false,
+                                      "pruned": false,
+                                      "finished": false,
+                                      "depth": 8,
+                                      "node_type": "Action Input",
+                                      "description": "{\n  \"owned_by\": \"\",\n  \"issue_priority\": \"\",\n  \"created_by\": \"\",\n  \"applies_to_part\": \"\",\n  \"issue_rev_orgs\": \"\",\n  \"stage_name\": \"\",\n  \"ticket_needs_response\": \"\",\n  \"ticket_rev_org\": \"\",\n  \"ticket_severity\": \"\",\n  \"ticket_source_channel\": \"\",\n  \"type\": \"issue\"\n}",
+                                      "Elo": 1000.0,
+                                      "observation": "{\"error\": \"Function executing from data.toolenv.tools.Customized.agent007.api import works_list error...\\nargument of type 'bool' is not iterable\", \"response\": \"\"}",
+                                      "observation_code": 0,
+                                      "child_count": 2,
+                                      "expand_num": 14,
+                                      "io_state": {},
+                                      "children": [
+                                        {
+                                          "is_terminal": false,
+                                          "pruned": false,
+                                          "finished": false,
+                                          "depth": 9,
+                                          "node_type": "Thought",
+                                          "description": "I encountered an error while trying to retrieve the work items similar to TKT-123. It seems there was an issue with the function call. I will try a different approach by searching for the work items using the `search_object_by_name_for_agent007` function.",
+                                          "Elo": 1000.0,
+                                          "child_count": 1,
+                                          "expand_num": 0,
+                                          "children": [
+                                            {
+                                              "is_terminal": false,
+                                              "pruned": false,
+                                              "finished": false,
+                                              "depth": 10,
+                                              "node_type": "Action",
+                                              "description": "search_object_by_name_for_agent007",
+                                              "Elo": 1000.0,
+                                              "child_count": 1,
+                                              "expand_num": 0,
+                                              "children": [
+                                                {
+                                                  "is_terminal": false,
+                                                  "pruned": false,
+                                                  "finished": false,
+                                                  "depth": 11,
+                                                  "node_type": "Action Input",
+                                                  "description": "{}",
+                                                  "Elo": 1000.0,
+                                                  "observation": "{\"error\": \"\", \"response\": \"None\"}",
+                                                  "observation_code": 0,
+                                                  "child_count": 1,
+                                                  "expand_num": 15,
+                                                  "io_state": {},
+                                                  "children": [
+                                                    {
+                                                      "is_terminal": false,
+                                                      "pruned": false,
+                                                      "finished": false,
+                                                      "depth": 12,
+                                                      "node_type": "Thought",
+                                                      "description": "I apologize, but the `search_object_by_name_for_agent007` function is currently unavailable. Therefore, I'm unable to proceed with retrieving the work items similar to TKT-123. To resolve this issue, I will restart the task.",
+                                                      "Elo": 1000.0,
+                                                      "child_count": 1,
+                                                      "expand_num": 0,
+                                                      "children": [
+                                                        {
+                                                          "is_terminal": false,
+                                                          "pruned": false,
+                                                          "finished": false,
+                                                          "depth": 13,
+                                                          "node_type": "Action",
+                                                          "description": "Finish",
+                                                          "Elo": 1000.0,
+                                                          "child_count": 1,
+                                                          "expand_num": 0,
+                                                          "children": [
+                                                            {
+                                                              "is_terminal": false,
+                                                              "pruned": true,
+                                                              "finished": false,
+                                                              "depth": 14,
+                                                              "node_type": "Action Input",
+                                                              "description": "{\n  \"return_type\": \"give_up_and_restart\"\n}",
+                                                              "Elo": 1000.0,
+                                                              "observation": "{\"response\":\"chose to give up and restart\"}",
+                                                              "observation_code": 4,
+                                                              "child_count": 0,
+                                                              "expand_num": 16,
+                                                              "io_state": {},
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "is_terminal": false,
+                                          "pruned": false,
+                                          "finished": false,
+                                          "depth": 9,
+                                          "node_type": "Thought",
+                                          "description": "Based on the current state and previous actions, it appears that there was an error when executing the `works_list_for_agent007` function. The error message suggests that there was an issue with the argument passed to the function.\n\nTo proceed, I can try a different approach by using the `get_similar_work_items_for_agent007` function again to retrieve the work items similar to TKT-123, and then summarize them. This is different from the previous actions of directly summarizing TKT-123 or searching for objects by name.",
+                                          "Elo": 1000.0,
+                                          "child_count": 1,
+                                          "expand_num": 0,
+                                          "children": [
+                                            {
+                                              "is_terminal": false,
+                                              "pruned": false,
+                                              "finished": false,
+                                              "depth": 10,
+                                              "node_type": "Action",
+                                              "description": "get_similar_work_items_for_agent007",
+                                              "Elo": 1000.0,
+                                              "child_count": 1,
+                                              "expand_num": 0,
+                                              "children": [
+                                                {
+                                                  "is_terminal": false,
+                                                  "pruned": false,
+                                                  "finished": false,
+                                                  "depth": 11,
+                                                  "node_type": "Action Input",
+                                                  "description": "{\n  \"work_id\": \"TKT-123\"\n}",
+                                                  "Elo": 1000.0,
+                                                  "observation": "{\"error\": \"\", \"response\": \"[]\"}",
+                                                  "observation_code": 0,
+                                                  "child_count": 2,
+                                                  "expand_num": 17,
+                                                  "io_state": {},
+                                                  "children": [
+                                                    {
+                                                      "is_terminal": false,
+                                                      "pruned": true,
+                                                      "finished": false,
+                                                      "depth": 12,
+                                                      "node_type": "Thought",
+                                                      "description": "I apologize, but it seems that there are no work items similar to TKT-123. Therefore, I am unable to proceed with creating issues from the summary and prioritizing them. Is there anything else I can assist you with?",
+                                                      "Elo": 1000.0,
+                                                      "child_count": 0,
+                                                      "expand_num": 18,
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "is_terminal": false,
+                                                      "pruned": true,
+                                                      "finished": false,
+                                                      "depth": 12,
+                                                      "node_type": "Thought",
+                                                      "description": "I apologize for the inconvenience, but it seems that there are no work items similar to TKT-123. Therefore, I am unable to proceed with creating and prioritizing issues from the summary.\n\nIf you have any other tasks or if there's anything else I can assist you with, please let me know.",
+                                                      "Elo": 1000.0,
+                                                      "child_count": 0,
+                                                      "expand_num": 19,
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "is_terminal": false,
+                  "pruned": false,
+                  "finished": false,
+                  "depth": 3,
+                  "node_type": "Thought",
+                  "description": "Based on the current state, it seems that there are no similar work items to TKT-123. Previous attempts to summarize work items and create issues from the summary have failed. \n\nTo generate a different action, I can try to retrieve a list of work items matching specific criteria such as owned by a user or with a particular priority. This may provide a different set of work items to work with.\n\nI'll call the \"works_list_for_agent007\" function to retrieve work items owned by any user and with any priority.",
+                  "Elo": 1000.0,
+                  "child_count": 1,
+                  "expand_num": 0,
+                  "children": [
+                    {
+                      "is_terminal": false,
+                      "pruned": false,
+                      "finished": false,
+                      "depth": 4,
+                      "node_type": "Action",
+                      "description": "works_list_for_agent007",
+                      "Elo": 1000.0,
+                      "child_count": 1,
+                      "expand_num": 0,
+                      "children": [
+                        {
+                          "is_terminal": false,
+                          "pruned": false,
+                          "finished": false,
+                          "depth": 5,
+                          "node_type": "Action Input",
+                          "description": "{\n  \"owned_by\": \"any\",\n  \"issue_priority\": \"any\"\n}",
+                          "Elo": 1000.0,
+                          "observation": "{\"error\": \"\", \"response\": \"[]\"}",
+                          "observation_code": 0,
+                          "child_count": 2,
+                          "expand_num": 20,
+                          "io_state": {},
+                          "children": [
+                            {
+                              "is_terminal": false,
+                              "pruned": false,
+                              "finished": false,
+                              "depth": 6,
+                              "node_type": "Thought",
+                              "description": "Based on the current state, there are no work items in the database that match the specified criteria. It seems that there are no work items available to create issues from or prioritize.\n\nSince my previous attempts have failed to find any similar work items or retrieve a list of work items, I'll try a different approach. I'll search for specific work items using other criteria such as the work item's ID, description, or title.\n\nI'll call the \"search_object_by_name_for_agent007\" function to search for a specific work item.",
+                              "Elo": 1000.0,
+                              "child_count": 1,
+                              "expand_num": 0,
+                              "children": [
+                                {
+                                  "is_terminal": false,
+                                  "pruned": false,
+                                  "finished": false,
+                                  "depth": 7,
+                                  "node_type": "Action",
+                                  "description": "search_object_by_name_for_agent007",
+                                  "Elo": 1000.0,
+                                  "child_count": 1,
+                                  "expand_num": 0,
+                                  "children": [
+                                    {
+                                      "is_terminal": false,
+                                      "pruned": false,
+                                      "finished": false,
+                                      "depth": 8,
+                                      "node_type": "Action Input",
+                                      "description": "{}",
+                                      "Elo": 1000.0,
+                                      "observation": "{\"error\": \"\", \"response\": \"None\"}",
+                                      "observation_code": 0,
+                                      "child_count": 2,
+                                      "expand_num": 21,
+                                      "io_state": {},
+                                      "children": [
+                                        {
+                                          "is_terminal": false,
+                                          "pruned": false,
+                                          "finished": false,
+                                          "depth": 9,
+                                          "node_type": "Thought",
+                                          "description": "Based on the current state, the search for a specific work item has returned no results. It seems that there are no work items available to create issues from or prioritize.\n\nSince my previous attempts have failed to find any similar work items, retrieve a list of work items, or search for a specific work item, I'll try a different approach. I'll create a new actionable task from a given text and prioritize it.\n\nI'll call the \"create_actionable_tasks_from_text_for_agent007\" function to create a new actionable task.",
+                                          "Elo": 1000.0,
+                                          "child_count": 1,
+                                          "expand_num": 0,
+                                          "children": [
+                                            {
+                                              "is_terminal": false,
+                                              "pruned": false,
+                                              "finished": false,
+                                              "depth": 10,
+                                              "node_type": "Action",
+                                              "description": "create_actionable_tasks_from_text_for_agent007",
+                                              "Elo": 1000.0,
+                                              "child_count": 1,
+                                              "expand_num": 0,
+                                              "children": [
+                                                {
+                                                  "is_terminal": false,
+                                                  "pruned": false,
+                                                  "finished": false,
+                                                  "depth": 11,
+                                                  "node_type": "Action Input",
+                                                  "description": "{}",
+                                                  "Elo": 1000.0,
+                                                  "observation": "{\"error\": \"\", \"response\": \"None\"}",
+                                                  "observation_code": 0,
+                                                  "child_count": 2,
+                                                  "expand_num": 22,
+                                                  "io_state": {},
+                                                  "children": [
+                                                    {
+                                                      "is_terminal": false,
+                                                      "pruned": false,
+                                                      "finished": false,
+                                                      "depth": 12,
+                                                      "node_type": "Action",
+                                                      "description": "create_actionable_tasks_from_text_for_agent007",
+                                                      "Elo": 1000.0,
+                                                      "child_count": 1,
+                                                      "expand_num": 0,
+                                                      "children": [
+                                                        {
+                                                          "is_terminal": false,
+                                                          "pruned": true,
+                                                          "finished": false,
+                                                          "depth": 13,
+                                                          "node_type": "Action Input",
+                                                          "description": "{}",
+                                                          "Elo": 1000.0,
+                                                          "observation": "{\"error\": \"\", \"response\": \"None\"}",
+                                                          "observation_code": 0,
+                                                          "child_count": 0,
+                                                          "expand_num": 23,
+                                                          "io_state": {},
+                                                          "children": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "is_terminal": false,
+                                                      "pruned": false,
+                                                      "finished": false,
+                                                      "depth": 12,
+                                                      "node_type": "Thought",
+                                                      "description": "Based on the current state and the previous action candidates, it seems that all previous attempts to create actionable tasks from text have failed. The output of the \"create_actionable_tasks_from_text_for_agent007\" function was always empty, resulting in no new tasks to work with.\n\nTo generate a different action, I will now try a new approach. Instead of creating actionable tasks from text, I will focus on retrieving existing work items and prioritizing them.\n\nI will call the \"works_list_for_agent007\" function to retrieve a list of work items owned by any user and with any priority.",
+                                                      "Elo": 1000.0,
+                                                      "child_count": 1,
+                                                      "expand_num": 0,
+                                                      "children": [
+                                                        {
+                                                          "is_terminal": false,
+                                                          "pruned": false,
+                                                          "finished": false,
+                                                          "depth": 13,
+                                                          "node_type": "Action",
+                                                          "description": "works_list_for_agent007",
+                                                          "Elo": 1000.0,
+                                                          "child_count": 1,
+                                                          "expand_num": 0,
+                                                          "children": [
+                                                            {
+                                                              "is_terminal": false,
+                                                              "pruned": true,
+                                                              "finished": false,
+                                                              "depth": 14,
+                                                              "node_type": "Action Input",
+                                                              "description": "{\n  \"owned_by\": \"any\",\n  \"issue_priority\": \"any\"\n}",
+                                                              "Elo": 1000.0,
+                                                              "observation": "{\"error\": \"\", \"response\": \"[]\"}",
+                                                              "observation_code": 0,
+                                                              "child_count": 0,
+                                                              "expand_num": 24,
+                                                              "io_state": {},
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "is_terminal": false,
+                                          "pruned": false,
+                                          "finished": false,
+                                          "depth": 9,
+                                          "node_type": "Thought",
+                                          "description": "I apologize for the oversight. Thank you for providing the information regarding previous actions. \n\nBased on the previous actions and the current state, it appears that the attempt to create actionable tasks from text using the \"create_actionable_tasks_from_text_for_agent007\" function resulted in an empty response.\n\nTo generate a different action, I will try a new approach. Instead of searching for similar work items or retrieving a list of work items, I will focus on summarizing the existing work items to gain more insights.\n\nI'll call the \"summarize_objects_for_agent007\" function with the ID of TKT-123 to retrieve a summary of the work item.",
+                                          "Elo": 1000.0,
+                                          "child_count": 1,
+                                          "expand_num": 0,
+                                          "children": [
+                                            {
+                                              "is_terminal": false,
+                                              "pruned": false,
+                                              "finished": false,
+                                              "depth": 10,
+                                              "node_type": "Action",
+                                              "description": "summarize_objects_for_agent007",
+                                              "Elo": 1000.0,
+                                              "child_count": 1,
+                                              "expand_num": 0,
+                                              "children": [
+                                                {
+                                                  "is_terminal": false,
+                                                  "pruned": false,
+                                                  "finished": false,
+                                                  "depth": 11,
+                                                  "node_type": "Action Input",
+                                                  "description": "{\n  \"objects\": \"TKT-123\"\n}",
+                                                  "Elo": 1000.0,
+                                                  "observation": "{\"error\": \"Message error...\", \"response\": \"{'error': 'Not a valid list of objects/ object ids. Example: \\\"[\\\\'WK-001\\\\', \\\\'WK-002\\\\']'}\"}",
+                                                  "observation_code": 11,
+                                                  "child_count": 1,
+                                                  "expand_num": 25,
+                                                  "io_state": {},
+                                                  "children": [
+                                                    {
+                                                      "is_terminal": false,
+                                                      "pruned": false,
+                                                      "finished": false,
+                                                      "depth": 12,
+                                                      "node_type": "Thought",
+                                                      "description": "I apologize for the error encountered when trying to summarize the work item TKT-123. It seems that there was an issue with the format of the object ID provided.\n\nTo proceed with the task, I will restart the process and try again from the beginning.",
+                                                      "Elo": 1000.0,
+                                                      "child_count": 1,
+                                                      "expand_num": 0,
+                                                      "children": [
+                                                        {
+                                                          "is_terminal": false,
+                                                          "pruned": false,
+                                                          "finished": false,
+                                                          "depth": 13,
+                                                          "node_type": "Action",
+                                                          "description": "Finish",
+                                                          "Elo": 1000.0,
+                                                          "child_count": 1,
+                                                          "expand_num": 0,
+                                                          "children": [
+                                                            {
+                                                              "is_terminal": false,
+                                                              "pruned": true,
+                                                              "finished": false,
+                                                              "depth": 14,
+                                                              "node_type": "Action Input",
+                                                              "description": "{\n  \"return_type\": \"give_up_and_restart\"\n}",
+                                                              "Elo": 1000.0,
+                                                              "observation": "{\"response\":\"chose to give up and restart\"}",
+                                                              "observation_code": 4,
+                                                              "child_count": 0,
+                                                              "expand_num": 26,
+                                                              "io_state": {},
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "is_terminal": false,
+                              "pruned": false,
+                              "finished": false,
+                              "depth": 6,
+                              "node_type": "Thought",
+                              "description": "Based on the current state and previous actions, it seems that there are no similar work items to TKT-123 and retrieving a list of work items based on specific criteria has also failed.\n\nTo generate a different action, I could try searching for an object by name using the \"search_object_by_name_for_agent007\" function. This may provide some relevant work items that can be summarized and used to create issues.\n\nI'll call the \"search_object_by_name_for_agent007\" function to search for relevant work items.",
+                              "Elo": 1000.0,
+                              "child_count": 1,
+                              "expand_num": 0,
+                              "children": [
+                                {
+                                  "is_terminal": false,
+                                  "pruned": false,
+                                  "finished": false,
+                                  "depth": 7,
+                                  "node_type": "Action",
+                                  "description": "search_object_by_name_for_agent007",
+                                  "Elo": 1000.0,
+                                  "child_count": 1,
+                                  "expand_num": 0,
+                                  "children": [
+                                    {
+                                      "is_terminal": false,
+                                      "pruned": false,
+                                      "finished": false,
+                                      "depth": 8,
+                                      "node_type": "Action Input",
+                                      "description": "{}",
+                                      "Elo": 1000.0,
+                                      "observation": "{\"error\": \"\", \"response\": \"None\"}",
+                                      "observation_code": 0,
+                                      "child_count": 1,
+                                      "expand_num": 27,
+                                      "io_state": {},
+                                      "children": [
+                                        {
+                                          "is_terminal": false,
+                                          "pruned": false,
+                                          "finished": false,
+                                          "depth": 9,
+                                          "node_type": "Thought",
+                                          "description": "Based on the current state and previous actions, it seems that searching for relevant work items using the \"search_object_by_name_for_agent007\" function has also failed.\n\nSince all attempts to retrieve similar work items or search for relevant work items have failed, I believe I am unable to proceed with the task in the current state. I will call the \"Finish\" function and give up, then restart the task.",
+                                          "Elo": 1000.0,
+                                          "child_count": 1,
+                                          "expand_num": 0,
+                                          "children": [
+                                            {
+                                              "is_terminal": false,
+                                              "pruned": false,
+                                              "finished": false,
+                                              "depth": 10,
+                                              "node_type": "Action",
+                                              "description": "Finish",
+                                              "Elo": 1000.0,
+                                              "child_count": 1,
+                                              "expand_num": 0,
+                                              "children": [
+                                                {
+                                                  "is_terminal": false,
+                                                  "pruned": true,
+                                                  "finished": false,
+                                                  "depth": 11,
+                                                  "node_type": "Action Input",
+                                                  "description": "{\n  \"return_type\": \"give_up_and_restart\"\n}",
+                                                  "Elo": 1000.0,
+                                                  "observation": "{\"response\":\"chose to give up and restart\"}",
+                                                  "observation_code": 4,
+                                                  "child_count": 0,
+                                                  "expand_num": 28,
+                                                  "io_state": {},
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "is_terminal": false,
+          "pruned": false,
+          "finished": false,
+          "depth": 1,
+          "node_type": "Thought",
+          "description": "Based on the previous action, it seems that there are no similar work items to TKT-123. In order to generate different actions, I will try searching for the work item by its name instead of the ID. This way, I might be able to find similar work items and proceed with the task. Let's try the \"search_object_by_name_for_agent007\" function to search for the work item.",
+          "Elo": 1000.0,
+          "child_count": 1,
+          "expand_num": 0,
+          "children": [
+            {
+              "is_terminal": false,
+              "pruned": false,
+              "finished": false,
+              "depth": 2,
+              "node_type": "Action",
+              "description": "search_object_by_name_for_agent007",
+              "Elo": 1000.0,
+              "child_count": 1,
+              "expand_num": 0,
+              "children": [
+                {
+                  "is_terminal": false,
+                  "pruned": false,
+                  "finished": false,
+                  "depth": 3,
+                  "node_type": "Action Input",
+                  "description": "{}",
+                  "Elo": 1000.0,
+                  "observation": "{\"error\": \"\", \"response\": \"None\"}",
+                  "observation_code": 0,
+                  "child_count": 1,
+                  "expand_num": 29,
+                  "io_state": {},
+                  "children": [
+                    {
+                      "is_terminal": false,
+                      "pruned": false,
+                      "finished": false,
+                      "depth": 4,
+                      "node_type": "Thought",
+                      "description": "It seems that the search for the work item by name was not successful. Since I couldn't find any similar work items, I cannot proceed with summarizing them, creating issues, and prioritizing them. I'll have to give up and restart the task.",
+                      "Elo": 1000.0,
+                      "child_count": 1,
+                      "expand_num": 0,
+                      "children": [
+                        {
+                          "is_terminal": false,
+                          "pruned": false,
+                          "finished": false,
+                          "depth": 5,
+                          "node_type": "Action",
+                          "description": "Finish",
+                          "Elo": 1000.0,
+                          "child_count": 1,
+                          "expand_num": 0,
+                          "children": [
+                            {
+                              "is_terminal": false,
+                              "pruned": true,
+                              "finished": false,
+                              "depth": 6,
+                              "node_type": "Action Input",
+                              "description": "{\n  \"return_type\": \"give_up_and_restart\"\n}",
+                              "Elo": 1000.0,
+                              "observation": "{\"response\":\"chose to give up and restart\"}",
+                              "observation_code": 4,
+                              "child_count": 0,
+                              "expand_num": 30,
+                              "io_state": {},
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "forward_args": {
+    "single_chain_max_step": 12,
+    "tree_beam_size": 2,
+    "max_query_count": 200,
+    "answer": 1,
+    "with_filter": false
+  },
+  "compare_candidates": [],
+  "answer_generation": {
+    "valid_data": true,
+    "query_count": 30,
+    "total_tokens": 56089,
+    "total_input_tokens": 53179,
+    "total_output_tokens": 2910,
+    "total_time": 201.85165452957153,
+    "final_answer": "{\n  \"return_type\": \"give_up_and_restart\"\n}",
+    "finish_type": "give_up",
+    "function": [
+      {
+        "name": "works_list_for_agent007",
+        "description": "This is the subfunction for tool \"agent007\", you can use this tool.The description of this function is: \"Returns a list of IDs work items matching the request. To know more about the works, use the summarize_objects API.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "owned_by": {
+              "type": "string",
+              "description": "Filters for work owned by any of these users"
+            },
+            "issue_priority": {
+              "type": "string",
+              "description": "Filters for issues with any of the provided priorities. Allowed values: p0, p1, p2, p3"
+            },
+            "created_by": {
+              "type": "string",
+              "description": "Filters for work created by any of these users"
+            },
+            "applies_to_part": {
+              "type": "string",
+              "description": "Filters for work belonging to any of the provided parts"
+            },
+            "issue_rev_orgs": {
+              "type": "string",
+              "description": "Filters for issues with any of the provided Rev organizations"
+            },
+            "stage_name": {
+              "type": "string",
+              "description": "Filters for records in the provided stage(s) by name"
+            },
+            "ticket_needs_response": {
+              "type": "string",
+              "description": "Filters for tickets that need a response"
+            },
+            "ticket_rev_org": {
+              "type": "string",
+              "description": "Filters for tickets associated with any of the provided Rev organizations"
+            },
+            "ticket_severity": {
+              "type": "string",
+              "description": "Filters for tickets with any of the provided severities. Allowed values: blocker, high, low, medium"
+            },
+            "ticket_source_channel": {
+              "type": "string",
+              "description": "Filters for tickets with any of the provided source channels"
+            },
+            "type": {
+              "type": "string",
+              "description": "Filters for work of the provided types. Allowed values: issue, ticket, task"
+            }
+          },
+          "required": [
+            "owned_by",
+            "issue_priority"
+          ],
+          "optional": [
+            "created_by",
+            "applies_to_part",
+            "issue_rev_orgs",
+            "stage_name",
+            "ticket_needs_response",
+            "ticket_rev_org",
+            "ticket_severity",
+            "ticket_source_channel",
+            "type"
+          ]
+        }
+      },
+      {
+        "name": "summarize_objects_for_agent007",
+        "description": "This is the subfunction for tool \"agent007\", you can use this tool.The description of this function is: \"Summarizes a list of objects. The object can be anything such as a issue, work item etc. The function returns a Human readable description of the given object. The logic of how to summarize a particular object type is an internal implementation detail.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "objects": {
+              "type": "string",
+              "description": "List of objects or IDs of objects in str format to summarize"
+            }
+          },
+          "required": [
+            "objects"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "add_work_items_to_sprint_for_agent007",
+        "description": "This is the subfunction for tool \"agent007\", you can use this tool.The description of this function is: \"Adds the given work items to the sprint\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "work_ids": {
+              "type": "string",
+              "description": "A list of work item IDs to be added to the sprint."
+            },
+            "sprint_id": {
+              "type": "string",
+              "description": "The ID of the sprint to which the work items should be added"
+            }
+          },
+          "required": [
+            "work_ids",
+            "sprint_id"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "get_sprint_id_for_agent007",
+        "description": "This is the subfunction for tool \"agent007\", you can use this tool.The description of this function is: \"Returns the ID of the current sprint\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "get_similar_work_items_for_agent007",
+        "description": "This is the subfunction for tool \"agent007\", you can use this tool.The description of this function is: \"Returns a list of IDs work items/issues that are similar to the given work item/issue. To know more about the works, use the summarize_objects API.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "work_id": {
+              "type": "string",
+              "description": "The ID of the work item/issue for which you want to find similar items/issue"
+            }
+          },
+          "required": [
+            "work_id"
+          ],
+          "optional": []
+        }
+      },
+      {
+        "name": "search_object_by_name_for_agent007",
+        "description": "This is the subfunction for tool \"agent007\", you can use this tool.The description of this function is: \"Given a search string, returns the id of a matching object in the system of record. If multiple matches are found, it returns the one where the confidence is highest.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "create_actionable_tasks_from_text_for_agent007",
+        "description": "This is the subfunction for tool \"agent007\", you can use this tool.The description of this function is: \"Given a text, extracts actionable insights, and creates tasks for them, which are kind of a work item.\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "who_am_i_for_agent007",
+        "description": "This is the subfunction for tool \"agent007\", you can use this tool.The description of this function is: \"Returns the ID of the current user, also represented by 'my' in the prompts\"",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "optional": []
+        }
+      },
+      {
+        "name": "Finish",
+        "description": "If you believe that you have obtained a result that can answer the task, please call this function to provide the final answer. Alternatively, if you recognize that you are unable to proceed with the task in the current state, call this function to restart. Remember: you must ALWAYS call this function at the end of your attempt, and the only part that will be shown to the user is the final answer, so it should contain sufficient information.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "return_type": {
+              "type": "string",
+              "enum": [
+                "give_answer",
+                "give_up_and_restart"
+              ]
+            },
+            "final_answer": {
+              "type": "string",
+              "description": "The final answer you want to give the user. You should have this field if \"return_type\"==\"give_answer\""
+            }
+          },
+          "required": [
+            "return_type"
+          ]
+        }
+      }
+    ],
+    "chain": [],
+    "train_messages": [
+      [
+        {
+          "role": "system",
+          "content": "You are AutoGPT, you can use many tools(functions) to do the following task.\nFirst I will give you the task description, and your task start.\nAt each step, you need to give your thought to analyze the status now and what to do next, with a function call to actually excute your step.\nAfter the call, you will get the call result, and you are now in a new state.\nThen you will analyze your status now, then decide what to do next...\nAfter many (Thought-call) pairs, you finally perform the task, then you can give your finial answer.\nRemember: \n1.the state change is irreversible, you can't go back to one of the former state, if you want to restart the task, say \"I give up and restart\".\n2.All the thought is short, at most in 5 sentence.\n3.You can do more then one trys, so if your plan is to continusly try some conditions, you can do one of the conditions per try.\nLet's Begin!\nTask description: You should use functions to help handle the real time user querys. Remember:\n1.ALWAYS call \"Finish\" function at the end of the task. And the final answer should contain enough information to show to the user,If you can't handle the task, or you find that function calls always fail(the function is not valid now), use function Finish->give_up_and_restart.\n2.Do not use origin tool names, use only subfunctions' names.\nYou have access of the following tools:\n1.agent007: An interface to database which tracks the work items such as issues, features, bugs etc. Provides APIs to retrieve, summarize, change the database related to production cycle.\n"
+        },
+        {
+          "role": "user",
+          "content": "\nGet all work items similar to TKT-123, summarize them, create issues from that summary, and prioritize them\nBegin!\n"
+        },
+        {
+          "role": "user",
+          "content": "This is not the first time you try this task, all previous trails failed.\nBefore you generate my thought for this state, I will first show you your previous actions for this state, and then you must generate actions that is different from all of them. Here are some previous actions candidates:\n[\n  {\n    \"name\": \"get_similar_work_items_for_agent007\",\n    \"arguments\": \"{\\n  \\\"work_id\\\": \\\"TKT-123\\\"\\n}\",\n    \"function_output\": \"{\\\"error\\\": \\\"\\\", \\\"response\\\": \\\"[]\\\"}\",\n    \"mento-carlo-action-value\": 0.0\n  }\n]\n\nRemember you are now in the intermediate state of a trail, you will first analyze the now state and previous action candidates, then make actions that is different from all the previous.",
+          "valid": false
+        },
+        {
+          "role": "assistant",
+          "content": "Based on the previous action, it seems that there are no similar work items to TKT-123. In order to generate different actions, I will try searching for the work item by its name instead of the ID. This way, I might be able to find similar work items and proceed with the task. Let's try the \"search_object_by_name_for_agent007\" function to search for the work item.",
+          "function_call": {
+            "name": "search_object_by_name_for_agent007",
+            "arguments": "{}"
+          }
+        }
+      ],
+      [
+        {
+          "role": "system",
+          "content": "You are AutoGPT, you can use many tools(functions) to do the following task.\nFirst I will give you the task description, and your task start.\nAt each step, you need to give your thought to analyze the status now and what to do next, with a function call to actually excute your step.\nAfter the call, you will get the call result, and you are now in a new state.\nThen you will analyze your status now, then decide what to do next...\nAfter many (Thought-call) pairs, you finally perform the task, then you can give your finial answer.\nRemember: \n1.the state change is irreversible, you can't go back to one of the former state, if you want to restart the task, say \"I give up and restart\".\n2.All the thought is short, at most in 5 sentence.\n3.You can do more then one trys, so if your plan is to continusly try some conditions, you can do one of the conditions per try.\nLet's Begin!\nTask description: You should use functions to help handle the real time user querys. Remember:\n1.ALWAYS call \"Finish\" function at the end of the task. And the final answer should contain enough information to show to the user,If you can't handle the task, or you find that function calls always fail(the function is not valid now), use function Finish->give_up_and_restart.\n2.Do not use origin tool names, use only subfunctions' names.\nYou have access of the following tools:\n1.agent007: An interface to database which tracks the work items such as issues, features, bugs etc. Provides APIs to retrieve, summarize, change the database related to production cycle.\n"
+        },
+        {
+          "role": "user",
+          "content": "\nGet all work items similar to TKT-123, summarize them, create issues from that summary, and prioritize them\nBegin!\n"
+        },
+        {
+          "role": "user",
+          "content": "This is not the first time you try this task, all previous trails failed.\nBefore you generate my thought for this state, I will first show you your previous actions for this state, and then you must generate actions that is different from all of them. Here are some previous actions candidates:\n[\n  {\n    \"name\": \"get_similar_work_items_for_agent007\",\n    \"arguments\": \"{\\n  \\\"work_id\\\": \\\"TKT-123\\\"\\n}\",\n    \"function_output\": \"{\\\"error\\\": \\\"\\\", \\\"response\\\": \\\"[]\\\"}\",\n    \"mento-carlo-action-value\": 0.0\n  }\n]\n\nRemember you are now in the intermediate state of a trail, you will first analyze the now state and previous action candidates, then make actions that is different from all the previous.",
+          "valid": false
+        },
+        {
+          "role": "assistant",
+          "content": "Based on the previous action, it seems that there are no similar work items to TKT-123. In order to generate different actions, I will try searching for the work item by its name instead of the ID. This way, I might be able to find similar work items and proceed with the task. Let's try the \"search_object_by_name_for_agent007\" function to search for the work item.",
+          "function_call": {
+            "name": "search_object_by_name_for_agent007",
+            "arguments": "{}"
+          }
+        },
+        {
+          "role": "function",
+          "name": "search_object_by_name_for_agent007",
+          "content": "{\"error\": \"\", \"response\": \"None\"}"
+        },
+        {
+          "role": "assistant",
+          "content": "It seems that the search for the work item by name was not successful. Since I couldn't find any similar work items, I cannot proceed with summarizing them, creating issues, and prioritizing them. I'll have to give up and restart the task.",
+          "function_call": {
+            "name": "Finish",
+            "arguments": "{\n  \"return_type\": \"give_up_and_restart\"\n}"
+          }
+        }
+      ]
+    ],
+    "query": "Get all work items similar to TKT-123, summarize them, create issues from that summary, and prioritize them"
+  }
+}

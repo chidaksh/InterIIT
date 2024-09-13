@@ -1,0 +1,28 @@
+[
+  {
+    "tool_name": "works_list",
+    "arguments": [
+      {
+        "argument_name": "stage.name",
+        "argument_value": "triage"
+      },
+      {
+        "argument_name": "applies_to_part",
+        "argument_value": "FEAT-123"
+      },
+      {
+        "argument_name": "type",
+        "argument_value": "issue"
+      }
+    ]
+  },
+  {
+    "tool_name": "summarize_objects",
+    "arguments": [
+      {
+        "argument_name": "objects",
+        "argument_value": "$$PREV[0]"
+      }
+    ]
+  }
+]

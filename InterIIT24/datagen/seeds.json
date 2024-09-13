@@ -1,0 +1,13 @@
+[
+    {
+        "query": "Summarize issues similar to don:core:dvrv-us-1:devo/0:issue/1",
+        "relevant_tools": [
+            "get_similar_work_items",
+            "summarize_objects"
+        ]
+    },
+    {
+        "query": "What is the meaning of life?",
+        "relevant_tools": []
+    }
+]

@@ -1,0 +1,215 @@
+{
+    "tool_description": "An interface to database which tracks the work items such as issues, features, bugs etc. Provides APIs to retrieve, summarize, change the database related to production cycle.",
+    "name": "agent007",
+    "title": "agent007",
+    "tool_name": "agent007",
+    "api_list": [
+        {
+            "name": "works_list",
+            "url": "",
+            "description": "Returns a list of work items matching the request.",
+            "method": "GET",
+            "required_parameters": [
+
+                {
+                    "name": "owned_by",
+                    "description": "Filters for work owned by any of these users",
+                    "type": "array of strings",
+                    "default": "",
+                    "argument_value_example": "['DEVU-123']"
+                },
+
+                {
+                    "name": "issue.priority",
+                    "description": "Filters for issues with any of the provided priorities. Allowed values: p0, p1, p2, p3",
+                    "type": "array of strings",
+                    "default": "",
+                    "argument_value_example": "['p0']"
+
+                }
+                
+            ],
+            "optional_parameters": [
+
+                {
+                    "name": "created_by",
+                    "description": "Filters for work created by any of these users",
+                    "type": "array of strings",
+                    "default": "",
+                    "argument_value_example": "['DEVU-123']"
+                },
+                {
+                    "name": "applies_to_part",
+                    "description": "Filters for work belonging to any of the provided parts",
+                    "type": "array of strings",
+                    "default": "",
+                    "argument_value_example": "['FEAT-123', 'ENH-123', 'PROD-123', 'CAPL-123']"
+                },
+                {
+                    "name": "issue.rev_orgs",
+                    "description": "Filters for issues with any of the provided Rev organizations",
+                    "type": "array of strings",
+                    "default": "",
+                    "argument_value_example": "['REV-123']"
+                },
+                {
+                    "name": "limit",
+                    "description": "The maximum number of works to return. The default is '50'",
+                    "type": "integer (int32)",
+                    "default": ""
+                },
+                
+                {
+                    "name": "stage.name",
+                    "description": "Filters for records in the provided stage(s) by name",
+                    "type": "array of strings",
+                    "default": ""
+                },
+                {
+                    "name": "ticket.needs_response",
+                    "description": "Filters for tickets that need a response",
+                    "type": "boolean",
+                    "default": ""
+                },
+                {
+                    "name": "ticket.rev_org",
+                    "description": "Filters for tickets associated with any of the provided Rev organizations",
+                    "type": "array of strings",
+                    "default": "",
+                    "argument_value_example": "['REV-123']"
+                },
+                {
+                    "name": "ticket.severity",
+                    "description": "Filters for tickets with any of the provided severities. Allowed values: blocker, high, low, medium",
+                    "type": "array of strings",
+                    "default": ""
+                },
+                {
+                    "name": "ticket.source_channel",
+                    "description": "Filters for tickets with any of the provided source channels",
+                    "type": "array of strings",
+                    "default": ""
+                },
+                {
+                    "name": "type",
+                    "description": "Filters for work of the provided types. Allowed values: issue, ticket, task",
+                    "type": "array of strings",
+                    "default": ""
+                }
+            ]
+        },
+        {
+            "name": "summarize_work_item",
+            "url": "",
+            "description": "Summarizes a list of objects. The object can be anything such as a issue, work item etc. The function returns a Human readable description of the given object. The logic of how to summarize a particular object type is an internal implementation detail.",
+            "method": "GET",
+            "required_parameters": [
+                {
+                    "name": "objects",
+                    "description": "List of objects to summarize",
+                    "type": "array of objects",
+                    "default": ""
+                }
+            ],
+            "optional_parameters": []
+        },
+        {
+            "name": "prioritize_work_items",
+            "url": "",
+            "description": "Returns a list of objects sorted by priority. The logic of what constitutes priority for a given object is an internal implementation detail.",
+            "method": "GET",
+            "required_parameters": [{
+                "name": "objects",
+                "description": "A list of objects to be prioritized",
+                "type": "array of objects",
+                "default": ""
+            }],
+            "optional_parameters": [
+                
+            ]
+        },
+        {
+            "name": "add_work_items_to_sprint",
+            "url": "",
+            "description": "Adds the given work items to the sprint",
+            "method": "GET",
+            "required_parameters": [{
+                "name": "work_ids",
+                "description": "A list of work item IDs to be added to the sprint.",
+                "type": "array of strings",
+                "default": ""
+            },
+            {
+                "name": "sprint_id",
+                "description": "The ID of the sprint to which the work items should be added",
+                "type": "str",
+                "default": ""
+            }],
+            "optional_parameters": [
+                
+            ]
+        },
+        {
+            "name": "get_sprint_id",
+            "url": "",
+            "description": "Returns the ID of the current sprint",
+            "method": "GET",
+            "required_parameters": [],
+            "optional_parameters": []
+        },
+        {
+            "name": "get_similar_work_items",
+            "url": "",
+            "description": "Returns a list of work items/issues that are similar to the given work item/issue",
+            "method": "GET",
+            "required_parameters": [
+                {
+                    "name": "work_id",
+                    "description": "The ID of the work item/issue for which you want to find similar items/issue",
+                    "type": "string",
+                    "default": ""
+                }
+            ],
+            "optional_parameters": []
+        },
+        {
+            "name": "search_object_by_name",
+            "url": "",
+            "description": "Given a search string, returns the id of a matching object in the system of record. If multiple matches are found, it returns the one where the confidence is highest.",
+            "method": "GET",
+            "required_parameters": [],
+            "optional_parameters": [
+                {
+                    "name": "query",
+                    "description": "The search string, could be for example customer’s name, part name, user name.",
+                    "type": "string",
+                    "default": ""
+                }
+            ]
+        },
+        {
+            "name": "create_actionable_tasks_from_text",
+            "url": "",
+            "description": "Given a text, extracts actionable insights, and creates tasks for them, which are kind of a work item.",
+            "method": "GET",
+            "required_parameters": [],
+            "optional_parameters": [
+                {
+                    "name": "text",
+                    "description": "The text from which the actionable insights need to be created.",
+                    "type": "string",
+                    "default": ""
+                }
+            ]
+        },
+        {
+            "name": "who_am_i",
+            "url": "",
+            "description": "Returns the ID of the current user, also represented by 'my' in the prompts",
+            "method": "GET",
+            "required_parameters": [],
+            "optional_parameters": []
+        }
+    ],
+    "standardized_name": "agent007"
+}

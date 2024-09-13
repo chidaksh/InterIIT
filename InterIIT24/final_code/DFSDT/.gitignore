@@ -1,0 +1,9 @@
+data.zip
+*.DS_store
+old_out
+__MACOSX/
+
+run.bash
+
+*.pyc
+**/__pycache__

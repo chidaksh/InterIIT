@@ -1,0 +1,347 @@
+[
+    {
+        "query": "As the project manager for 'InnovateX' product development, I need to organize our work for the upcoming sprint. Fetch the current sprint ID, list all high-priority enhancement-related work items, and add these to our sprint. Moreover, if there are any work items that require immediate responses, include those as well.",
+        "query_id": 1,
+        "api_list": [
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "get_sprint_id"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "works_list"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "add_work_items_to_sprint"
+            }
+        ]
+    },
+    {
+        "query": "Good day, Agent007. Could you be so kind as to retrieve a list of tasks created by user 'Amy123' that are at the 'testing' stage? Once you have that, please prioritize them based on severity and summarize them for my review.",
+        "query_id": 2,
+        "api_list": [
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "works_list"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "prioritize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "summarize_objects"
+            }
+        ]
+    },
+    {
+        "query": "Could you pull up the latest work items associated with the 'CyberInt' Rev organization and arrange them in order of priority? I also need a summary of these items to prepare for the next stakeholder meeting.",
+        "query_id": 3,
+        "api_list": [
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "works_list"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "prioritize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "summarize_objects"
+            }
+        ]
+    },
+    {
+        "query": "Find me the ID of the most recent 'server crash' ticket, summarize similar past incidents, and provide a list of possible duplicate issues to avoid overlapping work.",
+        "query_id": 4,
+        "api_list": [
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "search_object_by_name"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "get_similar_work_items"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "summarize_objects"
+            }
+        ]
+    },
+    {
+        "query": "Quickly identify all the work items that my team, with the username 'DevOps_42', needs to respond to this week, prioritize them by severity, and summarize the key details so we can distribute the tasks in today’s meeting.",
+        "query_id": 5,
+        "api_list": [
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "works_list"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "prioritize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "summarize_objects"
+            }
+        ]
+    },
+    {
+        "query": "In preparing for my weekly personal review, I'd like to know what work items are currently assigned to me. Please find all such items, determine if any are similar to 'TASK-999', and create a prioritized list for my action plan.",
+        "query_id": 6,
+        "related_apis": [
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "who_am_i"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "works_list"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "get_similar_work_items"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "prioritize_objects"
+            }
+        ]
+    },
+    {
+        "query": "I've just finished drafting the new compliance guidelines for 'TechCorp'. Now, could you generate a set of actionable tasks from this document and identify which ones we need to act on first?",
+        "query_id": 7,
+        "api_list": [
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "create_actionable_tasks_from_text"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "prioritize_objects"
+            }
+        ]
+    },
+    {
+        "query": "I'm preparing for our next sprint planning session. Could you list the current work items related to the 'Orion' project, summarize them, and identify which ones need immediate response? Also, fetch the ID of the current sprint so I can add these items directly.",
+        "query_id": 8,
+        "api_list": [
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "works_list"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "summarize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "get_sprint_id"
+            }
+        ]
+    },
+    {
+        "query": "For the upcoming performance review, can you provide a sorted list of tasks created by 'User-101' and owned by 'User-202', prioritizing them by their urgency? Also, I would like to see a summary of the high severity tickets.",
+        "query_id": 9,
+        "api_list": [
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "works_list"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "prioritize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "summarize_objects"
+            }
+        ]
+    },
+    {
+        "query": "Our team is trying to close out pending issues before the quarter ends. Can you check for work items created by 'Manager-X', summarize their status, and prioritize them? We also need to add any P1 issues to the current sprint.",
+        "query_id": 10,
+        "api_list": [
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "works_list"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "summarize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "prioritize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "add_work_items_to_sprint"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "get_sprint_id"
+            }
+        ]
+    },
+    {
+        "query": "Hello, I'd like to compare our current backlog against similar past issues. Please pull up a list of all open tickets, find similar ones that have been resolved in the last sprint, and give me a prioritized summary for cross-examination.",
+        "query_id": 11,
+        "api_list": [
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "works_list"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "get_similar_work_items"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "prioritize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "summarize_objects"
+            }
+        ]
+    },
+    {
+        "query": "As I plan to restructure our project workflow, I need a complete overview. Would you mind listing all tasks in the 'Alpha' stage, summarizing them, and then creating a prioritized list based on their severity and response urgency?",
+        "query_id": 12,
+        "api_list": [
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "works_list"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "summarize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "prioritize_objects"
+            }
+        ]
+    },
+    {
+        "query": "Could you assist me with a cross-functional meeting preparation by providing a summary of all blocker and high-severity issues created by our 'DevOps' team, and organize them in order of priority? It’s crucial to include similar past work items for a retrospective discussion.",
+        "query_id": 13,
+        "api_list": [
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "works_list"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "summarize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "prioritize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "get_similar_work_items"
+            }
+        ]
+    },
+    {
+        "query": "We need to innovate our ticketing system. To start, identify all tickets related to the 'frontend' part that haven't been responded to, summarize their details, and prioritize them by severity. Also, check if we have any similar work items in our backlog.",
+        "query_id": 14,
+        "api_list": [
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "works_list"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "summarize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "prioritize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "get_similar_work_items"
+            }
+        ]
+    },
+    {
+        "query": "As we gather data from recent customer feedback texts, can you extract actionable tasks, prioritize them based on content severity, and then summarize these tasks for the team meeting? Plus, could you check who among us should address these tasks first?",
+        "query_id": 15,
+        "api_list": [
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "create_actionable_tasks_from_text"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "prioritize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "summarize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "Agent007",
+                "api_name": "who_am_i"
+            }
+        ]
+    }
+]

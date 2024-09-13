@@ -1,0 +1,38 @@
+[
+  {
+    "tool_name": "get_similar_work_items_for_agent007",
+    "arguments": [
+      {
+        "argument_name": "work_id",
+        "argument_value": "WK-001"
+      }
+    ]
+  },
+  {
+    "tool_name": "summarize_work_items_for_agent007",
+    "arguments": [
+      {
+        "argument_name": "objects",
+        "argument_value": "['WK-001', 'WK-002']"
+      }
+    ]
+  },
+  {
+    "tool_name": "summarize_work_items_for_agent007",
+    "arguments": [
+      {
+        "argument_name": "objects",
+        "argument_value": "['WK-001']"
+      }
+    ]
+  },
+  {
+    "tool_name": "summarize_work_items_for_agent007",
+    "arguments": [
+      {
+        "argument_name": "objects",
+        "argument_value": "WK-001"
+      }
+    ]
+  }
+]

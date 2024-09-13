@@ -1,0 +1,28 @@
+[
+  {
+    "tool_name": "works_list",
+    "arguments": [
+      {
+        "argument_name": "ticket.severity",
+        "argument_value": "high"
+      },
+      {
+        "argument_name": "ticket.source_channel",
+        "argument_value": "slack"
+      },
+      {
+        "argument_name": "ticket.rev_org",
+        "argument_value": "Cust123"
+      }
+    ]
+  },
+  {
+    "tool_name": "summarize_objects",
+    "arguments": [
+      {
+        "argument_name": "objects",
+        "argument_value": "$$PREV[0]"
+      }
+    ]
+  }
+]

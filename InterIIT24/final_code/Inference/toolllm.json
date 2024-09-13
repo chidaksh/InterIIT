@@ -1,0 +1,61 @@
+[
+    {
+    "qid":1,
+    "question": "Summarize issues similar to don:core:dvrv-us-1:devo/0:issue/1" ,
+    "gnd":"get_similar_work_items -> summarize_objects",
+    "mod":"get_similar_work_items  -> summarize_work_items" ,
+    "win": true
+},
+
+{
+    "qid":2,
+    "question": "What is the meaning of life?",
+    "gnd": "[]",
+    "mod": "[]" ,
+    "win": true
+},
+{
+    "qid":3,
+    "question": "Prioritize my P0 issues and add them to the current sprint",
+    "gnd":"whoami -> works_list -> prioritize_objects get_sprint_id -> add_work_items_to_sprint",
+    "mod": "works_list  -> add_work_items_to_sprint ",
+    "win": true
+},
+{
+    "qid":4,
+    "question":  "Given a customer meeting transcript T, create action items and add them to my current sprint",
+    "gnd": "create_actionable_tasks_from_text -> get_sprint_id -> add_work_items_to_sprint ",
+    "mod": "[]" ,
+    "win": false
+},
+{
+    "qid":5,
+    "question": "List all high severity tickets coming in from slack from customer Cust123 and generate a summary of them.",
+    "gnd": "search_object_by_name -> works_list -> summarize_objects",
+    "mod": "works_list -> summarize_work_items" ,
+    "win": false
+},
+{
+    "qid":6,
+    "question": "What are my issues in the triage stage under part FEAT-123? Summarize them." ,
+    "gnd": "whoami -> works_list -> summarize_objects",
+    "mod": "works_list -> summarize_work_items" ,
+    "win": false
+},
+{
+    "qid":7,
+    "question": "Summarize high severity tickets from the customer UltimateCustomer",
+    "gnd": "search_object_by_name-> works_list -> summarize_objects" ,
+    "mod": "works_list -> summarize_objects",
+    "win": false
+},
+{
+    "qid":8,
+    "question":  "Get all work items similar to TKT-123, summarize them, create issues from that summary, and prioritize them",
+    "gnd": "get_similar_work_items -> create_actionable_tasks_from_text -> prioritize_objects",
+    "mod": "[]",
+    "win": false
+}
+
+
+]

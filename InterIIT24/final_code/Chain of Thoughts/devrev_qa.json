@@ -1,0 +1,34 @@
+[
+    {
+        "qid" : 1,
+        "question" : "Summarize work items similar to don:core:dvrv-us-1:devo/0:issue/1"
+    },
+    {
+        "qid" : 2,
+        "question" : "What is the meaning of life?"
+    },
+    {
+        "qid" : 3,
+        "question" : "Prioritize my P0 issues and add them to the current sprint"
+    },
+    {
+        "qid" : 4,
+        "question" : "Summarize high severity tickets from the customer UltimateCustomer"
+    },
+    {
+        "qid" : 5,
+        "question" : "What are my all issues in the triage stage under part FEAT-123? Summarize them."
+    },
+    {
+        "qid" : 6,
+        "question" : "List all high severity tickets coming in from slack from customer Cust123 and generate a summary of them."
+    },
+    {
+        "qid" : 7,
+        "question" : "Given a customer meeting transcript T, create action items and add them to my current sprint"
+    },
+    {
+        "qid" : 8,
+        "question" : "Get all work items similar to TKT-123, summarize them, create issues from that summary, and prioritize them"
+    }
+]

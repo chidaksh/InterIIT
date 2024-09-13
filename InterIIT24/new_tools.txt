@@ -1,0 +1,5 @@
+average_priority(objects)
+select_first_k_tasks(objects)
+select_last_k_tasks(objects)
+compare_priorities(object1, object2)
+count_tasks(objects)

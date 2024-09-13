@@ -1,0 +1,38 @@
+[
+  {
+    "tool_name": "get_similar_work_items",
+    "arguments": [
+      {
+        "argument_name": "work_id",
+        "argument_value": "TKT-123"
+      }
+    ]
+  },
+  {
+    "tool_name": "summarize_objects",
+    "arguments": [
+      {
+        "argument_name": "objects",
+        "argument_value": "$$PREV[1]"
+      }
+    ]
+  },
+  {
+    "tool_name": "create_actionable_tasks_from_text",
+    "arguments": [
+      {
+        "argument_name": "text",
+        "argument_value": "$$PREV[2]"
+      }
+    ]
+  },
+  {
+    "tool_name": "prioritize_objects",
+    "arguments": [
+      {
+        "argument_name": "objects",
+        "argument_value": "$$PREV[3]"
+      }
+    ]
+  }
+]

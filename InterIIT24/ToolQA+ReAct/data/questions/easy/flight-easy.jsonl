@@ -1,0 +1,10 @@
+{"qid": "easy-flight-0000", "question": "What are my all issues in the triage stage under part FEAT-123? Summarize them and List all high severity tickets coming in from slack from customer Cust123 and generate a summary of them.", "answer": "1"}
+{"qid": "easy-flight-9000", "question": "Prioritize my P0 issues and add them to the current sprint?", "answer": "21:43"}
+{"qid": "easy-flight-0001", "question": "Summarize high severity tickets from the customer UltiCustomer?", "answer": "12:16"}
+{"qid": "easy-flight-0002", "question": "Summarize issues similar to user/78?", "answer": "12:33"}
+{"qid": "easy-flight-0003", "question": "What was the departure time of the DL891 flight from SEA to LAX on 2022-01-22?", "answer": "11:54"}
+{"qid": "easy-flight-0004", "question": "What was the departure time of the DL414 flight from LGA to ATL on 2022-02-07?", "answer": "18:45"}
+{"qid": "easy-flight-0005", "question": "What was the departure time of the DL2759 flight from MCO to DTW on 2022-05-14?", "answer": "16:49"}
+{"qid": "easy-flight-0006", "question": "What was the departure time of the DL82 flight from MEM to ATL on 2022-01-18?", "answer": "12:53"}
+{"qid": "easy-flight-0007", "question": "What was the departure time of the WN2392 flight from PDX to OAK on 2022-04-12?", "answer": "13:18"}
+{"qid": "easy-flight-0008", "question": "What was the departure time of the F9124 flight from JAX to SJU on 2022-02-28?", "answer": "11:25"}

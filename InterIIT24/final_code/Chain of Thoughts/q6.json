@@ -1,0 +1,45 @@
+{
+  "question": "List all high severity tickets coming in from slack from customer Cust123 and generate a summary of them.",
+  "answer": {
+    "answer": [
+      {
+        "tool_name": "works_list",
+        "arguments": [
+          {
+            "argument_name": "ticket.rev_org",
+            "argument_value": [
+              "Cust123"
+            ]
+          },
+          {
+            "argument_name": "ticket.severity",
+            "argument_value": [
+              "high"
+            ]
+          },
+          {
+            "argument_name": "ticket.source_channel",
+            "argument_value": [
+              "slack"
+            ]
+          },
+          {
+            "argument_name": "type",
+            "argument_value": [
+              "ticket"
+            ]
+          }
+        ]
+      },
+      {
+        "tool_name": "summarize_objects",
+        "arguments": [
+          {
+            "argument_name": "objects",
+            "argument_value": "$$PREV[0]"
+          }
+        ]
+      }
+    ]
+  }
+}

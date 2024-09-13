@@ -1,0 +1,54 @@
+
+Question 1:
+  Preferred Path: 1
+  Path 1: 17 times (85.00% of total responses)
+  Path 2: 3 times (15.00% of total responses)
+
+Question 2:
+  Preferred Path: 2
+  Path 1: 8 times (40.00% of total responses)
+  Path 2: 12 times (60.00% of total responses)
+
+Question 3:
+  Preferred Path: 2
+  Path 1: 8 times (40.00% of total responses)
+  Path 2: 12 times (60.00% of total responses)
+
+Question 4:
+  Preferred Path: 2
+  Path 1: 0 times (0.00% of total responses)
+  Path 2: 20 times (100.00% of total responses)
+
+Question 5:
+  Preferred Path: 1
+  Path 1: 11 times (55.00% of total responses)
+  Path 2: 9 times (45.00% of total responses)
+
+Question 6:
+  Preferred Path: 1
+  Path 1: 13 times (65.00% of total responses)
+  Path 2: 7 times (35.00% of total responses)
+
+Question 7:
+  Preferred Path: 2
+  Path 1: 8 times (40.00% of total responses)
+  Path 2: 12 times (60.00% of total responses)
+
+Question 8:
+  Preferred Path: 2
+  Path 1: 0 times (0.00% of total responses)
+  Path 2: 20 times (100.00% of total responses)
+
+Path 1 is preferred for 3 questions
+Path 2 is preferred for 5 questions
+Overall Counts:
+  Path 2: 95 times
+  Path 1: 65 times
+
+Percentage of times each path is chosen:
+  Path1: 40.62%
+  Path2: 59.38%
+
+ Model Accuracy with given data: 37.5 %
+
+ Therefore Preferred Path: Human path

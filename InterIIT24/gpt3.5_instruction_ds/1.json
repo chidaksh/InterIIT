@@ -1,0 +1,42 @@
+[
+    {
+        "query": "I want to streamline our project management process. First, fetch a list of work items assigned to our team with the highest priority. Next, create actionable tasks from a text file 'project_report.txt.' Finally, summarize the objects created and find any similar work items to identify redundancies.",
+        "related_apis": ["works_list", "prioritize_objects", "create_actionable_tasks_from_text", "summarize_objects", "get_similar_work_items"]
+    },
+    {
+        "query": "Please find all the work items related to our product 'AgentX' created by our team members in the past month. Prioritize them by urgency and provide a summary of their current status.",
+        "related_apis": ["works_list", "prioritize_objects", "summarize_objects"]
+    },
+    {
+        "query": "Can you help me identify any work items that need a response and are associated with Rev organization 'REV-456'? After that, create actionable tasks from the text 'urgent_issues.txt' and prioritize them based on their severity.",
+        "related_apis": ["works_list", "create_actionable_tasks_from_text", "prioritize_objects"]
+    },
+    {
+        "query": "I need to organize our sprint. First, fetch the ID of the current sprint. Then, add work items with IDs ['WI-123', 'WI-456'] to this sprint. Finally, provide a list of work items similar to 'WI-123' to avoid duplication.",
+        "related_apis": ["get_sprint_id", "add_work_items_to_sprint", "get_similar_work_items"]
+    },
+    {
+        "query": "Please find work items of type 'issue' with the priority 'p0' or 'p1' that are assigned to our team. Additionally, summarize the objects created and prioritize them based on their urgency.",
+        "related_apis": ["works_list", "summarize_objects", "prioritize_objects"]
+    },
+    {
+        "query": "Our company 'TechSolutions' needs to streamline our project management. Fetch a list of work items created by 'DEVU-789' related to 'Project Alpha.' Then, create actionable tasks from the text 'project_report.txt' and summarize the objects created.",
+        "related_apis": ["works_list", "create_actionable_tasks_from_text", "summarize_objects"]
+    },
+    {
+        "query": "I'm looking for work items with the highest severity ('blocker' or 'high') related to Rev organization 'REV-123.' Afterward, find similar work items to these and prioritize them based on urgency.",
+        "related_apis": ["works_list", "get_similar_work_items", "prioritize_objects"]
+    },
+    {
+        "query": "Can you find work items assigned to 'DEVU-456' and created by 'DEVU-789' related to 'Project Beta'? Summarize the objects created and prioritize them by urgency.",
+        "related_apis": ["works_list", "summarize_objects", "prioritize_objects"]
+    },
+    {
+        "query": "Our team is exploring insights from text data. Please create actionable tasks from the text provided in the file 'insights.txt.' Then, summarize the objects created and prioritize them for action.",
+        "related_apis": ["create_actionable_tasks_from_text", "summarize_objects", "prioritize_objects"]
+    },
+    {
+        "query": "I need to identify work items created by 'DEVU-123' that belong to parts 'FEAT-789' and 'PROD-456.' Once found, please summarize these objects and find similar work items to avoid duplicates.",
+        "related_apis": ["works_list", "summarize_objects", "get_similar_work_items"]
+    }
+]

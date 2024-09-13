@@ -1,0 +1,37 @@
+[
+  {
+    "tool_name": "works_list_for_agent007",
+    "arguments": [
+      {
+        "argument_name": "owned_by",
+        "argument_value": "me"
+      },
+      {
+        "argument_name": "issue_priority",
+        "argument_value": "p0"
+      }
+    ]
+  },
+  {
+    "tool_name": "summarize_objects_for_agent007",
+    "arguments": [
+      {
+        "argument_name": "objects",
+        "argument_value": "$$PREV1"
+      }
+    ]
+  },
+  {
+    "tool_name": "add_work_items_to_sprint_for_agent007",
+    "arguments": [
+      {
+        "argument_name": "work_ids",
+        "argument_value": "$$PREV1"
+      },
+      {
+        "argument_name": "sprint_id",
+        "argument_value": "current"
+      }
+    ]
+  }
+]

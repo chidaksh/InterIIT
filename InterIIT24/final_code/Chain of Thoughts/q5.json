@@ -1,0 +1,49 @@
+{
+  "question": "What are my all issues in the triage stage under part FEAT-123? Summarize them.",
+  "answer": {
+    "answer": [
+      {
+        "tool_name": "who_am_i",
+        "arguments": []
+      },
+      {
+        "tool_name": "works_list",
+        "arguments": [
+          {
+            "argument_name": "stage.name",
+            "argument_value": [
+              "triage"
+            ]
+          },
+          {
+            "argument_name": "applies_to_part",
+            "argument_value": [
+              "FEAT-123"
+            ]
+          },
+          {
+            "argument_name": "type",
+            "argument_value": [
+              "issue"
+            ]
+          },
+          {
+            "argument_name": "owned_by",
+            "argument_value": [
+              "$$PREV[0]"
+            ]
+          }
+        ]
+      },
+      {
+        "tool_name": "summarize_objects",
+        "arguments": [
+          {
+            "argument_name": "objects",
+            "argument_value": "$$PREV[1]"
+          }
+        ]
+      }
+    ]
+  }
+}

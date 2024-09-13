@@ -1,0 +1,46 @@
+[
+  {
+    "tool_name": "works_list_for_agent007",
+    "arguments": [
+      {
+        "argument_name": "ticket_severity",
+        "argument_value": "high"
+      },
+      {
+        "argument_name": "ticket_source_channel",
+        "argument_value": "slack"
+      },
+      {
+        "argument_name": "ticket_rev_org",
+        "argument_value": "Cust123"
+      }
+    ]
+  },
+  {
+    "tool_name": "summarize_work_items_for_agent007",
+    "arguments": [
+      {
+        "argument_name": "objects",
+        "argument_value": "$$PREV1"
+      }
+    ]
+  },
+  {
+    "tool_name": "summarize_work_items_for_agent007",
+    "arguments": [
+      {
+        "argument_name": "objects",
+        "argument_value": "WK-001, WK-003"
+      }
+    ]
+  },
+  {
+    "tool_name": "summarize_work_items_for_agent007",
+    "arguments": [
+      {
+        "argument_name": "objects",
+        "argument_value": "WK-001, WK-003"
+      }
+    ]
+  }
+]

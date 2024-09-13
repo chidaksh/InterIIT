@@ -1,0 +1,34 @@
+[  
+    {
+        "query": "Prioritize my P0 issues and add them to the current sprint",
+        "query_id": 3,
+        "api_list": [
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "works_list"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "prioritize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "add_work_items_to_sprint"
+            },
+            {   
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "get_sprint_id"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "who_am_i"
+            }
+        ]
+    }
+]
+

@@ -1,0 +1,410 @@
+[
+    {
+        "query": "Summarize issues similar to don:core:dvrv-us-1:devo/0:issue/1",
+        "query_id": 1,
+        "api_list": [
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "works_list"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "summarize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "prioritize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "add_work_items_to_sprint"
+            },
+            {   
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "get_sprint_id"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "get_similar_work_items"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "search_object_by_name"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "create_actionable_tasks_from_text"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "who_am_i"
+            }
+        ]
+    },
+    {
+        "query": "What is the meaning of life?",
+        "query_id": 2,
+        "api_list": [
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "works_list"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "summarize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "prioritize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "add_work_items_to_sprint"
+            },
+            {   
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "get_sprint_id"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "get_similar_work_items"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "search_object_by_name"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "create_actionable_tasks_from_text"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "who_am_i"
+            }
+        ]
+    },
+    {
+        "query": "Prioritize my P0 issues and add them to the current sprint",
+        "query_id": 3,
+        "api_list": [
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "works_list"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "summarize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "prioritize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "add_work_items_to_sprint"
+            },
+            {   
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "get_sprint_id"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "get_similar_work_items"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "search_object_by_name"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "create_actionable_tasks_from_text"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "who_am_i"
+            }
+        ]
+    },
+    {
+        "query": "Given a customer meeting transcript T, create action items and add them to my current sprint",
+        "query_id": 4,
+        "api_list": [
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "works_list"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "summarize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "prioritize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "add_work_items_to_sprint"
+            },
+            {   
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "get_sprint_id"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "get_similar_work_items"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "search_object_by_name"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "create_actionable_tasks_from_text"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "who_am_i"
+            }
+        ]
+    },
+    {
+        "query": "List all high severity tickets coming in from slack from customer Cust123 and generate a summary of them.",
+        "query_id": 5,
+        "api_list": [
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "works_list"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "summarize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "prioritize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "add_work_items_to_sprint"
+            },
+            {   
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "get_sprint_id"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "get_similar_work_items"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "search_object_by_name"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "create_actionable_tasks_from_text"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "who_am_i"
+            }
+        ]
+    },
+    {
+        "query": "What are my issues in the triage stage under part FEAT-123? Summarize them.",
+        "query_id": 6,
+        "api_list": [
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "works_list"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "summarize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "prioritize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "add_work_items_to_sprint"
+            },
+            {   
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "get_sprint_id"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "get_similar_work_items"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "search_object_by_name"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "create_actionable_tasks_from_text"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "who_am_i"
+            }
+        ]
+    },
+    {
+        "query": "Summarize high severity tickets from the customer UltimateCustomer",
+        "query_id": 7,
+        "api_list": [
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "works_list"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "summarize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "prioritize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "add_work_items_to_sprint"
+            },
+            {   
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "get_sprint_id"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "get_similar_work_items"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "search_object_by_name"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "create_actionable_tasks_from_text"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "who_am_i"
+            }
+        ]
+    },
+    {
+        "query": "Get all work items similar to TKT-123, summarize them, create issues from that summary, and prioritize them",
+        "query_id": 8,
+        "api_list": [
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "works_list"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "summarize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "prioritize_objects"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "add_work_items_to_sprint"
+            },
+            {   
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "get_sprint_id"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "get_similar_work_items"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "search_object_by_name"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "create_actionable_tasks_from_text"
+            },
+            {
+                "category_name": "Customized",
+                "tool_name": "agent007",
+                "api_name": "who_am_i"
+            }
+        ]
+    }
+]

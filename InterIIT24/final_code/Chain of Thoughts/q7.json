@@ -1,0 +1,33 @@
+{
+  "question": "Given a customer meeting transcript T, create action items and add them to my current sprint",
+  "answer": {
+    "answer": [
+      {
+        "tool_name": "create_actionable_tasks_from_text",
+        "arguments": [
+          {
+            "argument_name": "text",
+            "argument_value": "T"
+          }
+        ]
+      },
+      {
+        "tool_name": "get_sprint_id",
+        "arguments": []
+      },
+      {
+        "tool_name": "add_work_items_to_sprint",
+        "arguments": [
+          {
+            "argument_name": "work_ids",
+            "argument_value": "$$PREV[0]"
+          },
+          {
+            "argument_name": "sprint_id",
+            "argument_value": "$$PREV[1]"
+          }
+        ]
+      }
+    ]
+  }
+}

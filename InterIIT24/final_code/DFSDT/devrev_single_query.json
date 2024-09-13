@@ -1,0 +1,54 @@
+[  
+    {
+        "query": "Summarize issues similar to WK-001",
+        "query_id": 1,
+        "api_list": [
+            {
+                "category_name": "Agent007",
+                "tool_name": "agent007",
+                "api_name": "works_list"
+            },
+            {
+                "category_name": "Agent007",
+                "tool_name": "agent007",
+                "api_name": "summarize_objects"
+            },
+            {
+                "category_name": "Agent007",
+                "tool_name": "agent007",
+                "api_name": "prioritize_work_items"
+            },
+            {
+                "category_name": "Agent007",
+                "tool_name": "agent007",
+                "api_name": "add_work_items_to_sprint"
+            },
+            {
+                "category_name": "Agent007",
+                "tool_name": "agent007",
+                "api_name": "get_sprint_id"
+            },
+            {
+                "category_name": "Agent007",
+                "tool_name": "agent007",
+                "api_name": "get_similar_work_items"
+            },
+            {
+                "category_name": "Agent007",
+                "tool_name": "agent007",
+                "api_name": "search_object_by_name"
+            },
+            {
+                "category_name": "Agent007",
+                "tool_name": "agent007",
+                "api_name": "create_actionable_tasks_from_text"
+            },
+            {
+                "category_name": "Agent007",
+                "tool_name": "agent007",
+                "api_name": "who_am_i"
+            }
+        ]
+    }
+]
+

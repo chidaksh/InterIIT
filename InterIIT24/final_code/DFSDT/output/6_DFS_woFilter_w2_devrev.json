@@ -1,0 +1,54 @@
+[
+  {
+    "tool_name": "who_am_i_for_agent007",
+    "arguments": []
+  },
+  {
+    "tool_name": "works_list_for_agent007",
+    "arguments": [
+      {
+        "argument_name": "owned_by",
+        "argument_value": "USER-123"
+      },
+      {
+        "argument_name": "stage_name",
+        "argument_value": "triage"
+      },
+      {
+        "argument_name": "applies_to_part",
+        "argument_value": "FEAT-123"
+      },
+      {
+        "argument_name": "type",
+        "argument_value": "issue"
+      }
+    ]
+  },
+  {
+    "tool_name": "summarize_objects_for_agent007",
+    "arguments": [
+      {
+        "argument_name": "objects",
+        "argument_value": "$$PREV2"
+      }
+    ]
+  },
+  {
+    "tool_name": "summarize_objects_for_agent007",
+    "arguments": [
+      {
+        "argument_name": "objects",
+        "argument_value": "$$PREV6"
+      }
+    ]
+  },
+  {
+    "tool_name": "summarize_objects_for_agent007",
+    "arguments": [
+      {
+        "argument_name": "objects",
+        "argument_value": "$$PREV8"
+      }
+    ]
+  }
+]

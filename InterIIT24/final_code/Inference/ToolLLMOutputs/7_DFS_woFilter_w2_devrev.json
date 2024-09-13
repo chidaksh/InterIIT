@@ -1,0 +1,28 @@
+[
+  {
+    "tool_name": "works_list_for_agent007",
+    "arguments": [
+      {
+        "argument_name": "owned_by",
+        "argument_value": "UltimateCustomer"
+      },
+      {
+        "argument_name": "issue_priority",
+        "argument_value": "high"
+      },
+      {
+        "argument_name": "ticket_severity",
+        "argument_value": "high"
+      }
+    ]
+  },
+  {
+    "tool_name": "summarize_work_items_for_agent007",
+    "arguments": [
+      {
+        "argument_name": "objects",
+        "argument_value": "$$PREV1"
+      }
+    ]
+  }
+]
